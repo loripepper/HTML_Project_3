@@ -1,0 +1,91 @@
+Station Number,Station Name,Open Retail Status,Address,City,State,Zip Code,COUNTY,Number of Stations,Latitude,Longitude,Fueling Positions
+1,Diamond Bar,Open Retail,21865 E. Copley Drive,Diamond Bar,CA,91765,Los Angeles,1,34.0010516,-117.83159,1
+2,West Sacramento,Open Retail,1515 S. River Road,West Sacramento,CA,95691,Yolo,1,38.569456,-121.5239562,2
+3,UC Irvine,Open Retail,19172 Jamboree Rd.,Irvine,CA,92612,Orange,1,33.6647335,-117.8570501,1
+4,San Juan Capistrano,Open Retail,26572 Junipero Serra Rd.,San Juan Capistrano,CA,92675,Orange,1,33.5197168,-117.6692815,2
+5,Santa Monica,Open Retail,1819 Cloverfield Blvd.,Santa Monica,CA,90404,Los Angeles,1,34.0253355,-118.4718419,1
+6,Fairfax,Open Retail,7751 Beverly Blvd.,Los Angeles,CA,90036,Los Angeles,1,34.0763981,-118.360874,1
+7,Lawndale,Open Retail,15606 Inglewood Ave.,Lawndale,CA,90260,Los Angeles,1,33.8894198,-118.3632137,1
+8,Woodland Hills,Open Retail,5314 Topanga Canyon Rd.,Woodland Hills,CA,91364,Los Angeles,1,34.1664593,-118.6075399,1
+9,Anaheim,Open Retail,3731 E. La Palma Ave.,Anaheim,CA,92806,Orange,1,33.8558266,-117.8398771,1
+10,Mountain View,Open Retail,830 Leong Dr.,Mountain View,CA,94043,Santa Clara,1,37.4051407,-122.0690881,1
+11,LAX,Open Retail,10400 Aviation Blvd.,Los Angeles,CA,90045,Los Angeles,1,33.9416276,-118.3802267,1
+12,CSULA,Open Retail,5151 State University Dr.,Los Angeles,CA,90032,Los Angeles,1,34.0620435,-118.1758474,1
+13,Harris Ranch,Open Retail,24505 W. Dorris Ave.,Coalinga,CA,93210,Fresno,1,36.2491542,-120.2424817,1
+14,South San Francisco,Open Retail,248 S. Airport Blvd.,South San Francisco,CA,94080,San Mateo,1,37.6479527,-122.4080995,1
+15,San Jose - N. 1st,Open Retail,2101 N. 1st St.,San Jose,CA,95131,Santa Clara,1,37.3733553,-121.9210615,1
+16,Long Beach,Open Retail,3401 Long Beach Blvd.,Long Beach,CA,90807,Los Angeles,1,33.8192302,-118.1919115,1
+17,Riverside,Open Retail,8095 Lincoln Ave.,Riverside,CA,92504,Riverside,1,33.9239256,-117.4121106,1
+18,Costa Mesa,Open Retail,2050 Harbor Blvd.,Costa Mesa,CA,92627,Orange,1,33.6487448,-117.9209787,1
+19,La Canada Flintridge,Open Retail,550 Foothill Blvd.,La Canada Flintridge,CA,91011,Los Angeles,1,34.2000408,-118.1934196,1
+20,Lake Forest,Open Retail,20731 Lake Forest Dr.,Lake Forest,CA,92630,Orange,1,33.6615134,-117.6706532,1
+21,Saratoga,Open Retail,12600 Saratoga Ave.,Saratoga,CA,95070,Santa Clara,1,37.2841898,-122.0015928,1
+22,Campbell - Winchester,Open Retail,2855 Winchester Blvd.,Campbell,CA,95008,Santa Clara,1,37.2726766,-121.9559212,1
+23,Santa Barbara,Open Retail,150 S. La Cumbre Rd.,Santa Barbara,CA,93105,Santa Barbara,1,34.4381235,-119.7531675,1
+24,Hayward,Open Retail,391 W. A St.,Hayward,CA,94541,Alameda,1,37.6666999,-122.1086959,1
+25,Mill Valley,Open Retail,570 Redwood Hwy,Mill Valley,CA,94941,Marin,1,37.8888272,-122.5179817,1
+26,Truckee,Open Retail,12105 Donner Pass Rd.,Truckee,CA,96161,Nevada,1,39.3249466,-120.225761,1
+27,Hollywood,Open Retail,5700 Hollywood Blvd.,Los Angeles,CA,90028,Los Angeles,1,34.1013001,-118.3162769,1
+28,Playa Del Rey,Open Retail,8126 Lincoln Blvd.,Los Angeles,CA,90045,Los Angeles,1,33.9630697,-118.4238918,1
+29,Del Mar,Open Retail,3060 Carmel Valley Rd.,San Diego,CA,92130,San Diego,1,32.9336099,-117.2421275,1
+30,South Pasadena,Open Retail,1200 Fair Oaks Ave.,South Pasadena,CA,91030,Los Angeles,1,34.1117701,-118.152057,1
+31,San Ramon,Open Retail,4475 Norris Canyon Rd.,San Ramon,CA,94583,Contra Costa,1,37.7725089,-121.97128,1
+32,Fremont,Open Retail,41700 Grimmer Blvd.,Fremont,CA,94538,Alameda,1,37.5221941,-121.9707863,1
+33,Ontario,Open Retail,1850 E. Holt Blvd.,Ontario,CA,91761,San Bernardino,1,34.0631126,-117.6135483,1
+34,Thousand Oaks,Open Retail,3102 Thousand Oaks Blvd.,Thousand Oaks,CA,91362,Ventura,1,34.1687322,-118.8381319,1
+35,Emeryville,Open Retail,1172 45th St.,Emeryville,CA,94608,Alameda,1,37.83404,-122.2848899,1
+36,Palo Alto,Open Retail,3601 El Camino Real,Palo Alto,CA,94306,Santa Clara,1,37.4188116,-122.1355211,1
+37,Oakland,Open Retail,350 Grand Ave.,Oakland,CA,94610,Alameda,1,37.8092334,-122.2578068,2
+38,Fountain Valley,Open Retail,18480 Brookhurst St.,Fountain Valley,CA,92708,Orange,1,33.6944881,-117.9559891,3
+39,San Francisco - Third,Open Retail,551 Third St.,San Francisco,CA,94107,San Francisco,1,37.7806278,-122.3969287,2
+40,San Francisco - Mission,Open Retail,3550 Mission St.,San Francisco,CA,94110,San Francisco,1,37.7402767,-122.4258866,2
+41,San Francisco - Harrison,Open Retail,1201 Harrison St.,San Francisco,CA,94103,San Francisco,1,37.773447,-122.4106783,2
+42,Sacramento,Open Retail,3510 Fair Oaks Blvd.,Sacramento,CA,95864,Sacramento,1,38.5739653,-121.3846935,2
+43,Citrus Heights,Open Retail,6141 Greenback Ln.,Citrus Heights,CA,95621,Sacramento,1,38.6796325,-121.3230032,2
+44,Torrance - 190th St,Open Retail,2051 W. 190th Street,Torrance,CA,90501,Los Angeles,1,33.8585679,-118.3175809,4
+45,Mission Hills,Open Retail,15544 San Fernando Mission Blvd.,Mission Hills,CA,91345,Los Angeles,1,34.2714991,-118.4733018,1
+46,Berkeley,Open Retail,1250 University Ave.,Berkeley,CA,94702,Alameda,1,37.8695522,-122.2892424,2
+47,Sunnyvale,Open Retail,1296 Sunnyvale Saratoga Rd.,Sunnyvale,CA,94087,Santa Clara,1,37.3526582,-122.0340136,3
+48,Studio City,Open Retail,3780 Cahuenga Blvd.,Studio City,CA,91604,Los Angeles,1,34.137028,-118.3649335,3
+49,Placentia - Orangethorpe,Open Retail,313 West Orangethorpe Avenue, Placentia,CA,92870,Orange,1,33.8620691,-117.8783621,4
+50,Campbell - E. Hamilton,Open Retail,337 E. Hamilton Ave.,Campbell,CA,95008,Santa Clara,1,37.294683,-121.9461001,3
+51,Concord,Open Retail,605 Contra Costa Blvd.,Concord,CA,94523,Contra Costa,1,37.9751179,-122.0664246,2
+52,Aliso Viejo - LaPaz,Open Retail,26813 La Paz Road, Aliso Viejo,CA,92656,Orange,1,33.5731873,-117.7095656,4
+53,Santa Clarita,Planned,24551 Lyons Avenue,Santa Clarita,CA,91321,Los Angeles,1,34.3788648,-118.5662135,1
+54,Rancho Palos Verdes,Planned,28103 Hawthorne Blvd.,Rancho Palos Verdes,CA,90275,Los Angeles,1,33.7792261,-118.3940188,1
+55,Chino,Planned,12610 East End Ave.,Chino,CA,91710,San Bernardino,1,34.0236638,-117.727293,1
+56,Burbank,Planned,145 W. Verdugo Ave.,Burbank,CA,91502,Los Angeles,1,34.174438,-118.3127046,1
+57,Woodside,Planned,17287 Skyline Blvd.,Woodside,CA,94062,San Mateo,1,37.3866587,-122.2660377,2
+58,Sherman Oaks,Planned,14478 Ventura Blvd.,Sherman Oaks,CA,91423,Los Angeles,1,34.1506479,-118.4506192,3
+59,Culver City,Planned,11284 Venice Blvd.,Culver City,CA,90230,Los Angeles,1,34.0113113,-118.4212654,3
+60,San Diego,Planned,5494 Mission Center Rd.,San Diego,CA,92108,San Diego,1,32.7739856,-117.1565724,3
+61,San Jose - Bernal,Planned,101 Bernal Road,San Jose,CA,95119,Santa Clara,1,37.2323738,-121.7751144,3
+62,Laguna Beach,Planned,104 North Coast Highway,Laguna Beach,CA,92651,Orange,1,33.5430817,-117.7877254,2
+63,Redwood City,Planned,503 Whipple Ave.,Redwood City,CA,94063,San Mateo,1,37.4941213,-122.2367116,3
+64,Orange - Tustin,Planned,615 South Tustin Street, Orange,CA,92866,Orange,1,33.7783635,-117.8376817,4
+65,Cupertino - StevensCreek,Planned,21530 Stevens Creek Boulevard, Cupertino,CA,95014,Santa Clara,1,37.3224708,-122.05384,4
+66,Baldwin Park - Merced,Planned,14477 Merced Avenue, Baldwin Park,CA,91706,Los Angeles,1,34.07227,-117.9625557,4
+67,San Jose - Snell,Planned,3939 Snell Avenue, San Jose,CA,95136,Santa Clara,1,37.2770545,-121.8449948,4
+68,Costa Mesa - Bristol,Planned,2995 Bristol Street, Costa Mesa,CA,92626,Orange,1,33.679754,-117.8883285,4
+69,San Diego - Washington,Planned,1832 West Washington Street, San Diego,CA,92103,San Diego,1,32.7431354,-117.1841057,4
+70,Torrance - Hawthorne,Planned,24505 Hawthorne Boulevard, Torrance,CA,90505,Los Angeles,1,33.7990865,-118.3536112,4
+71,Ontario - Euclid,Planned,2160 South Euclid Avenue, Ontario,CA,91762,San Bernardino,1,34.0341806,-117.6536258,4
+72,Burbank - Hollywood,Planned,800 North Hollywood Way, Burbank,CA,91505,Los Angeles,1,34.1647543,-118.3474019,4
+73,San Diego - 1st Ave,Planned,1666 1st Avenue, San Diego,CA,92101,San Diego,1,32.7227689,-117.1662777,4
+74,San Jose - SantaClara,Planned,510 East Santa Clara Street, San Jose,CA,95112,Santa Clara,1,37.3411023,-121.8818346,4
+75,San Bernardino - Waterman,Planned,1930 South Waterman Avenue, San Bernardino,CA,92408,San Bernardino,1,34.0661236,-117.2813277,4
+76,El Cerrito - Carlson,Planned,3160 Carlson Boulevard, El Cerrito,CA,94530,Contra Costa,1,37.9022362,-122.3065235,4
+77,San Diego - RanchoCarmel,Planned,11030 Rancho Carmel Drive, San Diego,CA,92128,San Diego,1,32.9770493,-117.0853434,4
+78,Buena Park - Beach,Planned,6392 Beach Boulevard, Buena Park,CA,90621,Orange ,1,33.8679663,-117.999982,4
+79,Glendale - Foothill,Planned,3402 Foothill Boulevard, Glendale,CA,91214,Los Angeles,1,34.2322259,-118.2556504,4
+80,Los Gatos - SantaCruz,Planned,666 North Santa Cruz Avenue, Los Gatos,CA,95030,Santa Clara,1,37.2354737,-121.9793399,4
+81,Fremont - WarmSprings,Planned,47700 Warm Springs Boulevard, Fremont,CA,94539,Alameda,1,37.4774314,-121.9240106,4
+82,Los Altos - SanAntonio,Planned,988 North San Antonio Rd, Los Altos,CA,94022,Santa Clara,1,37.3998976,-122.1168134,4
+83,Newport Beach - Jamboree Rd,Planned,1600 Jamboree Boulevard, Newport Beach,CA,92660,Orange,1,33.6253293,-117.8806054,4
+84,Los Angeles - Washington Blvd,Planned,5164 West Washington Boulevard, Los Angeles,CA,90016,Los Angeles,1,34.0410607,-118.3555288,2
+85,Long Beach - Lakewood Blvd,Planned,2589 North Lakewood Boulevard, Long Beach,CA,90815,Los Angeles,1,33.8030142,-118.1452786,2
+86,City Of Industry - Pellissier Pl,Planned,2600 Pellissier Place, City of Industry,CA,90601,Los Angeles,1,34.0267833,-118.0373908,2
+87,Artesia - Pioneer Blvd,Planned,17325 Pioneer Boulevard, Artesia,CA,90701,Los Angeles,1,33.8734962,-118.0849877,2
+88,Monrovia - West Huntington Dr,Planned,705 West Huntington Drive, Monrovia,CA,91016,Los Angeles,1,34.1407007,-118.0167098,2
+89,Carlsbad - Avenida Encinas,Planned,7170 Avenida Encinas, Carlsbad,CA,92011,San Diego,1,33.0999611,-117.3134205,2
+90,Fontana,Planned,16880 Slover Avenue, Fontana,CA,92337,San Bernardino,1,34.0635077,-117.4382115,4
