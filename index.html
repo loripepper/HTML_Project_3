@@ -27,50 +27,42 @@
         <p>Battery Charging and Hydrogen Fueling Station Locator for Electric Vehicles in California</p>
       </div>
     </div>
-    <!-- Drop down information by County -->
+
+    <!-- Bar Graph by County -->
     <div class="row">
-      <div class="col-md-2">
-        <div class="well">
-          <h5>Test Subject ID No.:</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
-        </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">County Info</h3>
-          </div>
-          <div id="sample-metadata" class="panel-body"></div>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <div id="bar"></div>
-      </div>
-      <div class="col-md-5">
-        <div id="gauge"></div>
+      <div class="col-md-7">
+        <div id="stackedBar"></div>      
+        
+      <!-- Radial Bar Graph   -->
+      <div class="col-md-5">        
+        <div id="radialBar"></div>
       </div>
     </div>
+
     <!-- Station Locator Map -->
     <div class="row">
       <div class="col-md-12">
         <div id="mapid"></div>
+
           <!-- D3 JavaScript -->
           <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+
           <!-- Leaflet JS -->
           <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
           integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-          crossorigin=""></script>
-          <!-- API key -->
-          <script type="text/javascript" src="static/css/style.css"></script>
-          <!-- Our JavaScript -->
-          <script type="text/javascript" src="static/js/logic.js"></script>
+          crossorigin=""></script> 
       </div>
     </div>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   <script src="./static/js/config.js"></script>
-  <script src="./static/js/logic.js"></script>
-  <script src="ZEV_CA_infrastructure.csv"></script>
+  <script type="text/javascript" src="data.js"></script>
+  <script type="text/javascript" src="./static/js/logic.js"></script>
+  <script type="text/javascript" src="./static/js/app.js"></script> 
+
   
 </body>
 

@@ -1,0 +1,148 @@
+,COUNTY,Total,Latitude,Longitude,Technology,Open Retail Status
+0,Alameda,3560,37.647139,-121.91248799999998,battery,Open Retail
+1,Alpine,15,38.621783,-119.79835200000001,battery,Open Retail
+2,Amador,40,38.443549,-120.65385800000001,battery,Open Retail
+3,Butte,91,39.665335999999996,-121.603209,battery,Open Retail
+4,Colusa,30,39.177739,-122.237563,battery,Open Retail
+5,Contra Costa,1461,37.919478999999995,-121.95154299999999,battery,Open Retail
+6,Del Norte,25,41.749903,-123.980998,battery,Open Retail
+7,El Dorado,177,38.785612,-120.534225,battery,Open Retail
+8,Fresno,1127,36.761006,-119.655019,battery,Open Retail
+9,Glenn,14,39.602546000000004,-122.4017,battery,Open Retail
+10,Humboldt,134,40.706655,-123.926176,battery,Open Retail
+11,Imperial,33,33.040814000000005,-115.3554,battery,Open Retail
+12,Inyo,39,36.56216,-117.40420900000001,battery,Open Retail
+13,Kern,306,35.346629,-118.729506,battery,Open Retail
+14,Kings,147,36.072478000000004,-119.81553000000001,battery,Open Retail
+15,Lake,17,39.094802,-122.746757,battery,Open Retail
+16,Lassen,6,40.715287,-120.621223,battery,Open Retail
+17,Los Angeles,20193,34.196397999999995,-118.26186200000001,battery,Open Retail
+18,Madera,121,37.209821000000005,-119.749802,battery,Open Retail
+19,Marin,730,38.051367,-122.74639599999999,battery,Open Retail
+20,Mariposa,16,37.574343,-119.911721,battery,Open Retail
+21,Mendocino,158,39.432388,-123.442881,battery,Open Retail
+22,Merced,142,37.194806,-120.722802,battery,Open Retail
+23,Modoc,12,41.592918,-120.71837,battery,Open Retail
+24,Mono,32,37.915836,-118.87516699999999,battery,Open Retail
+25,Monterey,431,36.240103999999995,-121.315578,battery,Open Retail
+26,Napa,388,38.5071,-122.32590400000001,battery,Open Retail
+27,Nevada,88,39.297508,-120.77134299999999,battery,Open Retail
+28,Orange,5477,33.675686999999996,-117.777207,battery,Open Retail
+29,Placer,365,39.062032,-120.722718,battery,Open Retail
+30,Plumas,7,39.992295,-120.824371,battery,Open Retail
+31,Riverside,1441,33.729828000000005,-116.00223899999999,battery,Open Retail
+32,Sacramento,1852,38.450136,-121.344329,battery,Open Retail
+33,San Benito,47,36.611651,-121.085811,battery,Open Retail
+34,San Bernardino,1415,34.856660999999995,-116.18157099999999,battery,Open Retail
+35,San Diego,7199,33.023604,-116.776117,battery,Open Retail
+36,San Francisco,1671,37.727239000000004,-123.032229,battery,Open Retail
+37,San Joaquin,402,37.934982,-121.272244,battery,Open Retail
+38,San Luis Obispo,513,35.388189000000004,-120.448897,battery,Open Retail
+39,San Mateo,4459,37.414671999999996,-122.371546,battery,Open Retail
+40,Santa Barbara,492,34.536677000000005,-120.03836399999999,battery,Open Retail
+41,Santa Clara,16202,37.221614,-121.68954,battery,Open Retail
+42,Santa Cruz,300,37.012347,-122.00778899999999,battery,Open Retail
+43,Shasta,93,40.760514,-122.04355600000001,battery,Open Retail
+44,Sierra,1,39.576925,-120.521993,battery,Open Retail
+45,Siskiyou,67,41.587986,-122.53328700000002,battery,Open Retail
+46,Solano,421,38.267226,-121.939594,battery,Open Retail
+47,Sonoma,791,38.525182,-122.92611000000001,battery,Open Retail
+48,Stanislaus,150,37.562315999999996,-121.002831,battery,Open Retail
+49,Sutter,31,39.036190000000005,-121.70393999999999,battery,Open Retail
+50,Tehama,30,40.126157,-122.232274,battery,Open Retail
+51,Trinity,6,40.647858,-123.11466599999999,battery,Open Retail
+52,Tulare,119,36.228834,-118.78105500000001,battery,Open Retail
+53,Tuolumne,50,38.021434,-119.96473300000001,battery,Open Retail
+54,Ventura,893,34.358748,-119.133145,battery,Open Retail
+55,Yolo,386,38.679609,-121.90275,battery,Open Retail
+56,Yuba,16,39.27013,-121.34425900000001,battery,Open Retail
+0,Los Angeles,1,34.001051600000004,-117.83158999999999,hydrogen,Open Retail
+1,Yolo,2,38.569456,-121.52395619999999,hydrogen,Open Retail
+2,Orange,1,33.664733500000004,-117.8570501,hydrogen,Open Retail
+3,Orange,2,33.5197168,-117.6692815,hydrogen,Open Retail
+4,Los Angeles,1,34.0253355,-118.4718419,hydrogen,Open Retail
+5,Los Angeles,1,34.076398100000006,-118.360874,hydrogen,Open Retail
+6,Los Angeles,1,33.8894198,-118.36321370000002,hydrogen,Open Retail
+7,Los Angeles,1,34.1664593,-118.60753989999999,hydrogen,Open Retail
+8,Orange,1,33.8558266,-117.8398771,hydrogen,Open Retail
+9,Santa Clara,1,37.405140700000004,-122.0690881,hydrogen,Open Retail
+10,Los Angeles,1,33.941627600000004,-118.3802267,hydrogen,Open Retail
+11,Los Angeles,1,34.0620435,-118.17584740000001,hydrogen,Open Retail
+12,Fresno,1,36.2491542,-120.2424817,hydrogen,Open Retail
+13,San Mateo,1,37.6479527,-122.4080995,hydrogen,Open Retail
+14,Santa Clara,1,37.37335529999999,-121.9210615,hydrogen,Open Retail
+15,Los Angeles,1,33.8192302,-118.1919115,hydrogen,Open Retail
+16,Riverside,1,33.9239256,-117.41211059999999,hydrogen,Open Retail
+17,Orange,1,33.648744799999996,-117.9209787,hydrogen,Open Retail
+18,Los Angeles,1,34.2000408,-118.1934196,hydrogen,Open Retail
+19,Orange,1,33.6615134,-117.67065320000002,hydrogen,Open Retail
+20,Santa Clara,1,37.2841898,-122.00159280000001,hydrogen,Open Retail
+21,Santa Clara,1,37.2726766,-121.9559212,hydrogen,Open Retail
+22,Santa Barbara,1,34.438123499999996,-119.7531675,hydrogen,Open Retail
+23,Alameda,1,37.6666999,-122.1086959,hydrogen,Open Retail
+24,Marin,1,37.88882720000001,-122.5179817,hydrogen,Open Retail
+25,Nevada,1,39.324946600000004,-120.225761,hydrogen,Open Retail
+26,Los Angeles,1,34.101300099999996,-118.3162769,hydrogen,Open Retail
+27,Los Angeles,1,33.963069700000005,-118.4238918,hydrogen,Open Retail
+28,San Diego,1,32.9336099,-117.2421275,hydrogen,Open Retail
+29,Los Angeles,1,34.1117701,-118.15205700000001,hydrogen,Open Retail
+30,Contra Costa,1,37.7725089,-121.97128000000001,hydrogen,Open Retail
+31,Alameda,1,37.5221941,-121.97078629999999,hydrogen,Open Retail
+32,San Bernardino,1,34.0631126,-117.6135483,hydrogen,Open Retail
+33,Ventura,1,34.1687322,-118.83813190000001,hydrogen,Open Retail
+34,Alameda,1,37.83404,-122.2848899,hydrogen,Open Retail
+35,Santa Clara,1,37.418811600000005,-122.13552109999999,hydrogen,Open Retail
+36,Alameda,2,37.8092334,-122.2578068,hydrogen,Open Retail
+37,Orange,3,33.6944881,-117.95598909999998,hydrogen,Open Retail
+38,San Francisco,2,37.7806278,-122.3969287,hydrogen,Open Retail
+39,San Francisco,2,37.7402767,-122.4258866,hydrogen,Open Retail
+40,San Francisco,2,37.773447,-122.4106783,hydrogen,Open Retail
+41,Sacramento,2,38.5739653,-121.38469350000001,hydrogen,Open Retail
+42,Sacramento,2,38.679632500000004,-121.32300320000002,hydrogen,Open Retail
+43,Los Angeles,4,33.8585679,-118.31758090000001,hydrogen,Open Retail
+44,Los Angeles,1,34.27149910000001,-118.47330179999999,hydrogen,Open Retail
+45,Alameda,2,37.86955220000001,-122.2892424,hydrogen,Open Retail
+46,Santa Clara,3,37.35265820000001,-122.0340136,hydrogen,Open Retail
+47,Los Angeles,3,34.137028,-118.36493349999999,hydrogen,Open Retail
+48,Orange,4,33.8620691,-117.8783621,hydrogen,Open Retail
+49,Santa Clara,3,37.294683,-121.9461001,hydrogen,Open Retail
+50,Contra Costa,2,37.9751179,-122.0664246,hydrogen,Open Retail
+51,Orange,4,33.573187299999994,-117.70956559999999,hydrogen,Open Retail
+52,Los Angeles,1,34.378864799999995,-118.5662135,hydrogen,Planned
+53,Los Angeles,1,33.7792261,-118.39401880000001,hydrogen,Planned
+54,San Bernardino,1,34.023663799999994,-117.72729299999999,hydrogen,Planned
+55,Los Angeles,1,34.174438,-118.31270459999999,hydrogen,Planned
+56,San Mateo,2,37.386658700000005,-122.26603770000001,hydrogen,Planned
+57,Los Angeles,3,34.1506479,-118.4506192,hydrogen,Planned
+58,Los Angeles,3,34.011311299999996,-118.42126540000001,hydrogen,Planned
+59,San Diego,3,32.7739856,-117.15657240000002,hydrogen,Planned
+60,Santa Clara,3,37.2323738,-121.7751144,hydrogen,Planned
+61,Orange,2,33.543081699999995,-117.7877254,hydrogen,Planned
+62,San Mateo,3,37.494121299999996,-122.23671159999999,hydrogen,Planned
+63,Orange,4,33.7783635,-117.8376817,hydrogen,Planned
+64,Santa Clara,4,37.3224708,-122.05384,hydrogen,Planned
+65,Los Angeles,4,34.07227,-117.96255570000001,hydrogen,Planned
+66,Santa Clara,4,37.2770545,-121.84499479999998,hydrogen,Planned
+67,Orange,4,33.679753999999996,-117.88832849999999,hydrogen,Planned
+68,San Diego,4,32.7431354,-117.1841057,hydrogen,Planned
+69,Los Angeles,4,33.7990865,-118.3536112,hydrogen,Planned
+70,San Bernardino,4,34.034180600000006,-117.65362579999999,hydrogen,Planned
+71,Los Angeles,4,34.16475429999999,-118.34740190000001,hydrogen,Planned
+72,San Diego,4,32.7227689,-117.1662777,hydrogen,Planned
+73,Santa Clara,4,37.341102299999996,-121.88183459999999,hydrogen,Planned
+74,San Bernardino,4,34.066123600000005,-117.2813277,hydrogen,Planned
+75,Contra Costa,4,37.902236200000004,-122.30652350000001,hydrogen,Planned
+76,San Diego,4,32.977049300000004,-117.08534340000001,hydrogen,Planned
+77,Orange ,4,33.86796629999999,-117.999982,hydrogen,Planned
+78,Los Angeles,4,34.232225899999996,-118.2556504,hydrogen,Planned
+79,Santa Clara,4,37.2354737,-121.9793399,hydrogen,Planned
+80,Alameda,4,37.4774314,-121.92401059999999,hydrogen,Planned
+81,Santa Clara,4,37.3998976,-122.11681340000001,hydrogen,Planned
+82,Orange,4,33.6253293,-117.88060540000001,hydrogen,Planned
+83,Los Angeles,2,34.0410607,-118.35552879999999,hydrogen,Planned
+84,Los Angeles,2,33.80301420000001,-118.14527859999998,hydrogen,Planned
+85,Los Angeles,2,34.0267833,-118.03739080000001,hydrogen,Planned
+86,Los Angeles,2,33.873496200000005,-118.08498770000001,hydrogen,Planned
+87,Los Angeles,2,34.140700700000004,-118.0167098,hydrogen,Planned
+88,San Diego,2,33.0999611,-117.3134205,hydrogen,Planned
+89,San Bernardino,4,34.0635077,-117.4382115,hydrogen,Planned

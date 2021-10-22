@@ -1,8 +1,3 @@
-var queryUrl = "http://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2014-01-01&endtime=2014-01-02&maxlongitude=-69.52148437&minlongitude=-123.83789062&maxlatitude=48.74894534&minlatitude=25.16517337";
-var platesUrl = ""
-
-d3.json(queryUrl).then (function(data) {
-    console.log(data.features);
 
 
 var streetmap = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -24,55 +19,54 @@ var baseMaps = {
     "Dark Map": darkmap
   };
 
-var myMap = L.map("mapid", {
-    center: [
-      37.09, -95.71
-    ],
-    zoom: 5,
-    layers: [streetmap]
-  });
+//   var LeafIcon = L.Icon.extend({
+//     options: {
+//         shadowUrl: 'leaf-shadow.png',
+//         iconSize:     [38, 95],
+//         shadowSize:   [50, 64],
+//         iconAnchor:   [22, 94],
+//         shadowAnchor: [4, 62],
+//         popupAnchor:  [-3, -76]
+//     }
+// });
 
-var earthquakes = L.geoJSON(data, {
-    pointToLayer: function (feature, latlng) {
-      return L.circleMarker(latlng)
-    },    
-    style: function (feature) {
-      return {
-        fillColor: getColor(feature.properties.mag),
-        color: "clear",
-        opacity:1,
-        fillOpacity:0.5,
-        radius: feature.properties.mag * 6
-      }
-    }
-  }).addTo(myMap);
+// var greenIcon = new LeafIcon({iconUrl: 'leaf-green.png'})
+// var redIcon = new LeafIcon({iconUrl: 'leaf-red.png'})
 
-  function getColor(magnitude) {
-    if (magnitude > 5) {
-      return "red";
-    }
-    if (magnitude > 4) {
-      return "orange";
-    }
-    if (magnitude > 3) {
-      return "yellow";
-    }
-    if (magnitude > 2) {
-      return "lightgreen";
-    }
-    if (magnitude > 1) {
-      return "grey";
-    }
-    return "lavender";
-  };
-  
+var stations = []
+var battery = []
+var hydrogen = []
+ for(let index = 0; index < 146; index++){
+   stations.push(L.marker([data["Latitude"][index], data["Longitude"][index]]).bindPopup(data["COUNTY"][index]))
+   if(data["Technology"][index] == "battery"){
+      battery.push(L.circle([data["Latitude"][index], data["Longitude"][index]]).bindPopup(data["COUNTY"][index]))
+   }
 
-var overlayMaps = {
-  "Earthquakes": earthquakes
+   if(data["Technology"][index] == "hydrogen"){
+      hydrogen.push(L.circle([data["Latitude"][index], data["Longitude"][index]]).bindPopup(data["COUNTY"][index]))
+   } 
+    
+ };
+
+ stationLayers = L.layerGroup(stations)
+ batteryLayers = L.layerGroup(battery);
+ hydrogenLayers = L.layerGroup(hydrogen)
+ var overlayMaps = {
+  "All Stations": stationLayers,
+  "Battery Charging Stations": batteryLayers,
+  "Hydrogen Fueling Stations": hydrogenLayers
 };
 
+var myMap = L.map("mapid", {
+  center: [
+    36.7783, -119.4179    
+  ],
+  zoom: 5,
+  layers: [streetmap]
+});
 
-L.control.layers(baseMaps, overlayMaps, {collapsed: true})
+
+L.control.layers(baseMaps, overlayMaps, {collapsed: false})
 .addTo(myMap);
 
-}); 
+  
