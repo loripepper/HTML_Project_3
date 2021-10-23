@@ -1,3 +1,5 @@
+// Create Stacked Bar Graph
+
 console.log(data);
 
 var county_battery = []
@@ -44,67 +46,68 @@ Plotly.newPlot("stackedBar", data, layout);
    
 
 // Create Radial Chart with Apex Charts
-        var options = {
-            series: [74459, 79, 119],
-            chart: {
-            height: 390,
-            type: 'radialBar',
-          },
-          plotOptions: {
-            radialBar: {
-              offsetY: 0,
-              startAngle: 0,
-              endAngle: 270,
-              hollow: {
-                margin: 5,
-                size: '30%',
-                background: 'transparent',
-                image: undefined,
-              },
-              dataLabels: {
-                name: {
-                  show: false,
-                },
-                value: {
-                  show: false,
-                }
-              }
-            }
-          },
-          colors: ['#1ab7ea', '#0084ff', '#39539E', '#0077B5'],
-          labels: ['Battery Charging Stations', 'Open Hydrogen Fueling Stations', 'Planned Hydrogen Fueling Stations'],
-          legend: {
-            show: true,
-            floating: true,
-            fontSize: '16px',
-            position: 'left',
-            offsetX: 160,
-            offsetY: 15,
-            labels: {
-              useSeriesColors: true,
-            },
-            markers: {
-              size: 0
-            },
-            formatter: function(seriesName, opts) {
-              return seriesName + ":  " + opts.w.globals.series[opts.seriesIndex]
-            },
-            itemMargin: {
-              vertical: 3
-            }
-          },
-          responsive: [{
-            breakpoint: 480,
-            options: {
-              legend: {
-                  show: false
-              }
-            }
-          }]
-          };
+
+ var options = {
+    series: [74459, 119, 79],
+    chart: {
+    height: 390,
+    type: 'radialBar',
+    },
+    plotOptions: {
+    radialBar: {
+        offsetY: 0,
+        startAngle: 0,
+        endAngle: 240,
+        hollow: {
+        margin: 5,
+        size: '25%',
+        background: 'transparent',
+        image: undefined,
+        },
+        dataLabels: {
+        name: {
+            show: false,
+        },
+        value: {
+            show: false,
+        }
+        }
+    }
+    },
+    colors: ['#1ab7ea', '#0084ff', '#39539E', '#0077B5'],
+    labels: ['Battery Charging Stations', 'Planned Hydrogen Fueling Stations', 'Open Hydrogen Fueling Stations'],
+    legend: {
+    show: true,
+    floating: true,
+    fontSize: '10px',
+    position: 'right',
+    offsetX: 160,
+    offsetY: 15,
+    labels: {
+        useSeriesColors: true,
+    },
+    markers: {
+        size: 0
+    },
+    formatter: function(seriesName, opts) {
+        return seriesName + ":  " + opts.w.globals.series[opts.seriesIndex]
+    },
+    itemMargin: {
+        vertical: 3
+    }
+    },
+    responsive: [{
+        breakpoint: 450,
+        options: {
+        legend: {
+            show: false
+        }
+    }
+    }]
+    };
   
-          var chart = new ApexCharts(document.querySelector("#radialBar"), options);
-          chart.render();
+var chart = new ApexCharts(document.querySelector("#radialBar"), options)
+chart.render();
         
 
 

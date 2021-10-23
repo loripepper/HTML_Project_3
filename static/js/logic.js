@@ -19,40 +19,23 @@ var baseMaps = {
     "Dark Map": darkmap
   };
 
-//   var LeafIcon = L.Icon.extend({
-//     options: {
-//         shadowUrl: 'leaf-shadow.png',
-//         iconSize:     [38, 95],
-//         shadowSize:   [50, 64],
-//         iconAnchor:   [22, 94],
-//         shadowAnchor: [4, 62],
-//         popupAnchor:  [-3, -76]
-//     }
-// });
-
-// var greenIcon = new LeafIcon({iconUrl: 'leaf-green.png'})
-// var redIcon = new LeafIcon({iconUrl: 'leaf-red.png'})
-
 var stations = []
 var battery = []
 var hydrogen = []
- for(let index = 0; index < 146; index++){
-   stations.push(L.marker([data["Latitude"][index], data["Longitude"][index]]).bindPopup(data["COUNTY"][index]))
+ for(let index = 0; index < 146; index++){  
    if(data["Technology"][index] == "battery"){
-      battery.push(L.circle([data["Latitude"][index], data["Longitude"][index]]).bindPopup(data["COUNTY"][index]))
+      battery.push(L.circleMarker([data["Latitude"][index], data["Longitude"][index]]).bindPopup(data["COUNTY"][index]))
    }
 
    if(data["Technology"][index] == "hydrogen"){
-      hydrogen.push(L.circle([data["Latitude"][index], data["Longitude"][index]]).bindPopup(data["COUNTY"][index]))
+      hydrogen.push(L.marker([data["Latitude"][index], data["Longitude"][index]]).bindPopup(data["COUNTY"][index]))
    } 
     
  };
 
- stationLayers = L.layerGroup(stations)
  batteryLayers = L.layerGroup(battery);
  hydrogenLayers = L.layerGroup(hydrogen)
  var overlayMaps = {
-  "All Stations": stationLayers,
   "Battery Charging Stations": batteryLayers,
   "Hydrogen Fueling Stations": hydrogenLayers
 };
@@ -62,7 +45,7 @@ var myMap = L.map("mapid", {
     36.7783, -119.4179    
   ],
   zoom: 5,
-  layers: [streetmap]
+  layers: [streetmap, batteryLayers, hydrogenLayers]
 });
 
 
