@@ -26,14 +26,14 @@ console.log(total_hyrdogen)
 var trace1 = {
     x: county_battery,
     y: total_battery,
-    name: "Battery",
+    name: "Battery Charging Stations",
     type: "bar"
   };
 
 var trace2 = {
     x: county_hydrogen,
     y: total_hyrdogen,
-    name: "Hydrogen",
+    name: "Hydrogen Fueling Stations",
     type: "bar"
 }
 
